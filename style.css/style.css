@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
+/* Color */
+:root {
+  --bg-color-primary: #fff8f3;
+  --font-color-primary: #181818;
+  --font-color-secondary: #474747;
+  --font-color-third: #757575;
+  --btn-color-primary: #fd6e0a;
+}
+
+/* Basic Customization */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+/* Reusable Class */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
