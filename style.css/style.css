@@ -27,3 +27,121 @@ html {
   width: 1140px;
   margin: 0 auto;
 }
+
+.btn {
+  border: none;
+  display: inline-block;
+  padding: 1.5rem 3.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: var(--btn-color-primary);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--btn-color-primary);
+  border: 2px solid var(--btn-color-primary);
+  margin-left: 1rem;
+}
+
+/* Main-Navigation Styling */
+nav {
+  padding: 2rem 1rem;
+}
+nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > div > ul {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+nav > div > ul li {
+  list-style: none;
+}
+
+nav > div > ul li:not(:last-child) {
+  margin-right: 5rem;
+}
+
+nav > div > ul li a:link,
+a:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--font-color-secondary);
+}
+
+nav > div .logo {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: var(--font-color-primary);
+  letter-spacing: 1px;
+}
+
+nav > div .logo .logo-highlight {
+  color: var(--btn-color-primary);
+}
+
+/* CSS Banner Section Styling */
+.header {
+  height: 100vh;
+  background-color: var(--bg-color-primary);
+  background-image: url("/images/header_bg-2.png"),
+    url("/images/developer-2.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom left;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 3rem 3rem 3rem 17rem;
+}
+
+.banner-text {
+  width: 65%;
+}
+
+.banner-title-secondary {
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--font-color-secondary);
+  margin-bottom: 0.1rem;
+}
+
+.banner-title-primary {
+  font-size: 8rem;
+  font-weight: 700;
+  color: var(--font-color-primary);
+  margin-bottom: 2rem;
+}
+
+.banner-description {
+  font-size: 1.8rem;
+  color: var(--font-color-third);
+  line-height: 3rem;
+  width: 80%;
+  text-align: justify;
+  margin-bottom: 3rem;
+}
+
+.banner-image {
+  margin-bottom: -2rem;
+  width: 35%;
+  justify-self: flex-end;
+}
+.banner-image img {
+  width: 40rem;
+  height: 52rem;
+}
