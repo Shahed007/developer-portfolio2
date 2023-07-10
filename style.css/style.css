@@ -36,6 +36,7 @@ html {
   font-weight: 700;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-primary {
