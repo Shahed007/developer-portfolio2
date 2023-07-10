@@ -275,3 +275,56 @@ nav > div .logo .logo-highlight {
   justify-content: center;
   align-items: center;
 }
+
+/* Footer Section Styling */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.footer {
+  margin-top: 13rem;
+  padding: 13rem 0;
+  background-color: var(--bg-color-primary);
+}
+
+.footer .section-title {
+  text-align: left;
+}
+
+.footer-column-description {
+  color: var(--font-color-secondary);
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 2.8rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.footer-social-icon {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.footer-contact-form {
+  margin-top: 3rem;
+}
+
+.footer-contact-form input[type="text"],
+.footer-contact-form input[type="email"],
+textarea {
+  display: block;
+  width: 70%;
+  padding: 1.5rem 3rem;
+  margin-bottom: 2.4rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: none;
+}
