@@ -217,3 +217,61 @@ nav > div .logo .logo-highlight {
   font-size: 16px;
   line-height: 28px;
 }
+
+/* Resume Section Styling */
+.resume-section {
+  margin-top: 13rem;
+}
+
+.resume-section-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+  margin: 3rem 0;
+}
+
+.resume-section-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.resume-section-item {
+}
+
+.resume-section-item:not(:last-child) {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.resume-section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--font-color-secondary);
+}
+
+.resume-section-item-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--font-color-secondary);
+  margin-bottom: 1rem;
+}
+
+.resume-section-item-sub-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--font-color-third);
+  margin-bottom: 2rem;
+}
+
+.resume-section-item-description {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: var(--font-color-third);
+  width: 80%;
+}
+
+.resume-item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
