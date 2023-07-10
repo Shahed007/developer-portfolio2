@@ -49,6 +49,25 @@ html {
   margin-left: 1rem;
 }
 
+.section-title-box {
+  text-align: center;
+}
+
+.section-title {
+  color: var(--font-color-primary);
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.section-description {
+  margin: 3rem auto;
+  color: var(--font-color-third);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  width: 75%;
+}
+
 /* Main-Navigation Styling */
 nav {
   padding: 2rem 1rem;
@@ -144,4 +163,57 @@ nav > div .logo .logo-highlight {
 .banner-image img {
   width: 40rem;
   height: 52rem;
+}
+
+/* About me Section Styling */
+.about-section {
+  padding: 10rem 10rem;
+  background-color: var(--bg-color-primary);
+  margin: 13rem 20rem;
+  border-radius: 5px;
+}
+
+.about-section_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-section-item {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.about-section-item h4 {
+  color: var(--font-color-primary);
+}
+
+.about-section-item p {
+  color: var(--font-color-secondary);
+}
+
+/* What I Do Styling */
+.section-what-do-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.section-what-do-item {
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+}
+
+.section-what-do-item h4 {
+  color: var(--font-color-primary);
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 1rem 0 2rem 0;
+}
+
+.section-what-do-item p {
+  font-size: 1.6rem;
+  color: var(--font-color-third);
+  font-size: 16px;
+  line-height: 28px;
 }
