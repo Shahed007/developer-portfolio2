@@ -116,10 +116,11 @@ nav > div .logo .logo-highlight {
 .header {
   height: 100vh;
   background-color: var(--bg-color-primary);
-  background-image: url("../images/header_bg-2.png"),
-    url("../images/developer-2.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, bottom left;
+  background-size: 550px, 85px;
 }
 .banner {
   display: flex;
